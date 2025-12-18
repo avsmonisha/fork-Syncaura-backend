@@ -6,38 +6,34 @@ Each service handles a specific domain such as authentication, CRUD operations, 
 The project follows a modular microservice-style architecture to ensure scalability, maintainability, and smooth team collaboration.
 
 ---
-
-## 📁 Repository Structure
 Syncaura-Backend/
 │
-├── auth-api/ # Authentication & Authorization service
-│ ├── src/
-│ ├── server.js
-│ ├── package.json
-│ └── README.md
+├── auth-api/                 # Authentication & Authorization service
+│   ├── src/
+│   ├── server.js
+│   ├── package.json
+│   └── README.md
 │
-├── CRUD-operations-/ # Generic CRUD APIs
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── server.js
+├── CRUD-operations-/         # Generic CRUD APIs
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
 │
-├── leave_management/ # Employee Leave Management System
-│ ├── config/
-│ ├── controller/
-│ ├── middleware/
-│ ├── model/
-│ ├── router/
-│ └── server.js
+├── leave_management/         # Employee Leave Management System
+│   ├── config/
+│   ├── controller/
+│   ├── middleware/
+│   ├── model/
+│   ├── router/
+│   └── server.js
 │
-├── realtime-chat-final/ # Real-time chat application using Socket.IO
-│ ├── public/
-│ └── server.js
+├── realtime-chat-final/      # Real-time chat application using Socket.IO
+│   ├── public/
+│   └── server.js
 │
 ├── .gitignore
 └── README.md
-
-text
 
 ---
 
